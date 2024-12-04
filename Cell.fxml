@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50." prefWidth="50." xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GameController" style="-fx-background-color: #6b99e3;">
+   <children>
+      <Circle fx:id="chipslot" fill="#ffffff" layoutX="25.0" layoutY="25.0" radius="22.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="circlelabel" layoutX="11.0" layoutY="6.0" text=" " />
+   </children>
+</Pane>
